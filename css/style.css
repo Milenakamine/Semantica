@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.cabecalho{
+    width: 1366px;
+    height: 150px;
+    background-color: teal;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between  ;
+}
+.cabecalho img{
+    width: 150px;
+    height: 70px;
+ }
+ .menu{
+    width: 700px;
+    height: 50px;
+    background: white;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.menu li{
+    padding-top:15px;
+}
+.menu a{
+    padding: 15px;
+    margin: 0 2px;
+    /*background: blue;*/ 
+}
+main{
+    width: 1366px; /*largura*/
+   /* height: 1000px; /*altura*/
+    background-color: #e6e6e6;
+    margin:0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.artigos article img{
+    width: 100%;
+
+}
+
+.destaque{
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.conteudo_principal{
+    width: 95%;
+    /* height: 500px; */
+   /* background-color: pink ;*/
+    margin: auto;
+    padding: 0em;
+}
+.conteudo_principal h2{
+    margin-left: 60px;
+    
+}
+.conteudo_principal article{
+    width: 40%;
+    border: solid 2px #000000;
+}
+.artigos{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.rodape{
+    width: 1366px;
+    height: 80px;
+    background-color: teal;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cursos{
+    margin: 80px;
+}
+
+.arrumar{
+    margin: 40px;
+}
+
+.arrumar{
+    border: solid 2px #000000;
+    width: 40%;
+    
+}
+.cursos div {
+    display: flex;
+    margin: 0 auto  ; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
